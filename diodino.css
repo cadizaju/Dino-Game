@@ -1,0 +1,41 @@
+
+body {
+  background-image: url(../Dino-Game/img/background.png) ;
+}
+
+#dino {
+  position: absolute;
+  margin-top: 250px ;
+  background-image: url(../Dino-Game/img/dino.png);
+  width : 60px ;
+  height: 60px ;
+  margin-left: 50px;
+  
+}
+
+#cactus {
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 900px;
+  width : 60 px ;
+  height: 60 px ;
+  
+  background-image: url(../Dino-Game/img/cactus.png);
+}
+
+#game-over {
+  text-align: centro;
+ color: 666 ;
+  margin: 50 px  0 ;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+@keyframes slideright {
+  de {
+      background-position-x: 70%;
+  }
+  para {
+      background-position-y: 10%;
+  }
+}
+
